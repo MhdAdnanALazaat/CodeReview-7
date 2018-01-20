@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Code re 7</title>
+	    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+
+<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+<link rel="stylesheet" type="text/css" href="css/style.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<script
+  src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+   integrity="sha256-k2WSCIexGzOj3Euiig+TlR8gA0EmPjuc79OEeY5L45g="
+ crossorigin="anonymous"></script>
+ <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+</head>
+<body>
+ <header>
+    <div class="logo">
+      <div>
+        <h1 class="coders">Coders</h1>
+      </div>
+      <div class="heart-img">
+        <img src="img\like.png" width="90" height="55">
+      </div>
+      <div>
+        <h1 class="dating">Dating</h1>
+      </div>
+    </div>
+  </header>
+<div class="We">
+    <p>Welcome to our</p>
+    <p>website</p>
+  </div>
+
+<script>
+   var Media=[{
+          Name : " Name : Jared",
+          Surname : "Surname : Leto",
+          Gender : " Male",
+          Age : "Age :" + " " + 43,
+          Image :"img/a.jpg",
+           like : "<button style='width: 100px;height: 50px;background-image: linear-gradient(#ff0000,#c75050);border-radius: 20px;align-self: flex-end;margin-bottom: 15px; font-size: 25px;' onclick=''>Like</button><span>1</span><br>"
+         
+        },{
+          Name : " Name : Ariana",
+          Surname : "Surname : Grande",
+          Gender : " Female",
+          Age : "Age :" + " " + 21,
+          Image :"img/b.jpg",
+           like : "<button style='width: 100px;height: 50px;background-image: linear-gradient(#ff0000,#c75050);border-radius: 20px;align-self: flex-end;margin-bottom: 15px; font-size: 25px;' onclick=''>Like</button><span>1</span><br>"
+         
+        },{
+          Name : " Name : Thomas Brodie",
+          Surname : "Surname : Sangster",
+          Gender : " Male",
+          Age : "Age :" + " " + 24,
+          Image :"img/c.jpg",
+           like : "<button style='width: 100px;height: 50px;background-image: linear-gradient(#ff0000,#c75050);border-radius: 20px;align-self: flex-end;margin-bottom: 15px; font-size: 25px;' onclick=''>Like</button><span>1</span><br>"
+         
+        },{
+          Name : " Name : Tyson",
+          Surname : "Surname : Beckford",
+          Gender : " Male",
+          Age : "Age :" + " " + 44,
+          Image :"img/d.jpg",
+           like : "<button style='width: 100px;height: 50px;background-image: linear-gradient(#ff0000,#c75050);border-radius: 20px;align-self: flex-end;margin-bottom: 15px; font-size: 25px;' onclick=''>Like</button><span>1</span><br>"
+         
+        },{
+          Name : " Name : Margot ",
+          Surname : "Surname : Robbie",
+          Gender : " Female",
+          Age : "Age :" + " " + 24,
+          Image :"img/e.jpg",
+           like : "<button style='width: 100px;height: 50px;background-image: linear-gradient(#ff0000,#c75050);border-radius: 20px;align-self: flex-end;margin-bottom: 15px; font-size: 25px;' onclick=''>Like</button><span>1</span><br>"
+         
+        },{
+          Name : " Name : Kate ",
+          Surname : "Surname : Upton",
+          Gender : " Female",
+          Age : "Age :" + " " + 22,
+          Image :"img/r.jpg",
+           like : "<button style='width: 100px;height: 50px;background-image: linear-gradient(#ff0000,#c75050);border-radius: 20px;align-self: flex-end;margin-bottom: 15px; font-size: 25px;' onclick=''>Like</button><span>1</span><br>"
+         
+        },
+        {
+          Name : " Name : Sam  ",
+          Surname : "Surname : Smith",
+          Gender : " Male",
+          Age : "Age :" + " " + 22,
+          Image :"img/t.jpg",
+           like : "<button style='width: 100px;height: 50px;background-image: linear-gradient(#ff0000,#c75050);border-radius: 20px;align-self: flex-end;margin-bottom: 15px; font-size: 25px;' onclick=''>Like</button><span>1</span><br>"
+         
+        },
+        {
+          Name : " Name : Adele",
+          Surname : "Surname : ron ",
+          Gender : " Female",
+          Age : "Age :" + " " + 26,
+          Image :"img/y.jpg",
+           like : "<button style='width: 100px;height: 50px;background-image: linear-gradient(#ff0000,#c75050);border-radius: 20px;align-self: flex-end;margin-bottom: 15px; font-size: 25px;' onclick=''>Like</button><span>1</span><br>"
+         
+        },
+        {
+          Name : " Name : Paul  ",
+          Surname : "Surname : Rudd",
+          Gender : " Male",
+          Age : "Age :" + " " + 45 ,
+          Image :"img/u.jpg",
+           like : "<button style='width: 100px;height: 50px;background-image: linear-gradient(#ff0000,#c75050);border-radius: 20px;align-self: flex-end;margin-bottom: 15px; font-size: 25px;' onclick=''>Like</button><span>1</span><br>"
+         
+        },
+        {
+          Name : " Name : Jim  ",
+          Surname : "Surname : Parsons",
+          Gender : " Male",
+          Age : "Age :" + " " + 41,
+          Image :"img/i.jpg",
+           like : "<button style='width: 100px;height: 50px;background-image: linear-gradient(#ff0000,#c75050);border-radius: 20px;align-self: flex-end;margin-bottom: 15px; font-size: 25px;' onclick=''>Like</button><span>1</span><br>"
+         
+        },
+        {
+          Name : " Name : Jennifer",
+          Surname : "Surname : Lopez",
+          Gender : " Female",
+          Age : "Age :" + " " + 45,
+          Image :"img/o.jpg",
+           like : "<button style='width: 100px;height: 50px;background-image: linear-gradient(#ff0000,#c75050);border-radius: 20px;align-self: flex-end;margin-bottom: 15px; font-size: 25px;' onclick=''>Like</button><span>1</span><br>"
+         
+        },
+        {
+          Name : " Name : Gwen",
+          Surname : "Surname : Stefanizz",
+          Gender : " Female",
+          Age : "Age :" + " " + 44,
+          Image :"img/p.jpg",
+           like : "<button style='width: 100px;height: 50px;background-image: linear-gradient(#ff0000,#c75050);border-radius: 20px;align-self: flex-end;margin-bottom: 15px; font-size: 25px;' onclick=''>Like</button><span>1</span><br>"
+         
+        },
+        {
+          Name : " Name : Hayden ",
+          Surname : "Surname : Panettiere",
+          Gender : " Female",
+          Age : "Age :" + " " + 24,
+          Image :"img/s.jpg",
+           like : "<button style='width: 100px;height: 50px;background-image: linear-gradient(#ff0000,#c75050);border-radius: 20px;align-self: flex-end;margin-bottom: 15px; font-size: 25px;' onclick=''>Like</button><span>1</span><br>"
+         
+        },
+        {
+          Name : " Name : Jennifer ",
+          Surname : "Surname : Aniston",
+          Gender : " Female",
+          Age : "Age :" + " " + 45 ,
+          Image :"img/f.jpg",
+           like : "<button style='width: 100px;height: 50px;background-image: linear-gradient(#ff0000,#c75050);border-radius: 20px;align-self: flex-end;margin-bottom: 15px; font-size: 25px;' onclick=''>Like</button><span>1</span><br>"
+         
+        },
+        {
+          Name : " Name : Lorde ",
+          Surname : "Surname : Upton",
+          Gender : " Female",
+          Age : "Age :" + " " + 50,
+          Image :"img/g.jpg",
+           like : "<button style='width: 100px;height: 50px;background-image: linear-gradient(#ff0000,#c75050);border-radius: 20px;align-self: flex-end;margin-bottom: 15px; font-size: 25px;' onclick=''>Like</button><span>1</span><br>"
+         
+        },
+        {
+          Name : " Name : Keanu  ",
+          Surname : "Surname : Reeves",
+          Gender : " Male",
+          Age : "Age :" + " " + 22,
+          Image :"img/h.jpg",
+           like : "<button style='width: 100px;height: 50px;background-image: linear-gradient(#ff0000,#c75050);border-radius: 20px;align-self: flex-end;margin-bottom: 15px; font-size: 25px;' onclick=''>Like</button><span>1</span><br>"
+         
+        },
+        {
+          Name : " Name : Emma",
+          Surname : "Surname : Stone",
+          Gender : " Female",
+          Age : "Age :" + " " + 25,
+          Image :"img/j.jpg",
+           like : "<button style='width: 100px;height: 50px;background-image: linear-gradient(#ff0000,#c75050);border-radius: 20px;align-self: flex-end;margin-bottom: 15px; font-size: 25px;' onclick=''>Like</button><span>1</span><br>"
+         
+        },
+        {
+          Name : " Name : Sandra  ",
+          Surname : "Surname : Bullock",
+          Gender : " Female",
+          Age : "Age :" + " " + 50,
+          Image :"img/k.jpg",
+           like : "<button style='width: 100px;height: 50px;background-image: linear-gradient(#ff0000,#c75050);border-radius: 20px;align-self: flex-end;margin-bottom: 15px; font-size: 25px;' onclick=''>Like</button><span>1</span><br>"
+         
+        },
+        {
+          Name : " Name : Carey  ",
+          Surname : "Surname : Mulligan",
+          Gender : " Female",
+          Age : "Age :" + " " + 29,
+          Image :"img/l.jpg",
+           like : "<button style='width: 100px;height: 50px;background-image: linear-gradient(#ff0000,#c75050);border-radius: 20px;align-self: flex-end;margin-bottom: 15px; font-size: 25px;' onclick=''>Like</button><span>1</span><br>"
+         
+        },
+        {
+          Name : " Name : Sarah  ",
+          Surname : "Surname : Hyland",
+          Gender : " Female",
+          Age : "Age :" + " " + 24 ,
+          Image :"img/z.jpg",
+         like : "<button style='width: 100px;height: 50px;background-image: linear-gradient(#ff0000,#c75050);border-radius: 20px;align-self: flex-end;margin-bottom: 15px; font-size: 25px;' onclick=''>Like</button><span>1</span><br>"
+
+         
+        },
+        {
+          Name : " Name : Samuel ",
+          Surname : "Surname : L. Jackson",
+          Gender : " Male",
+          Age : "Age :" + " " + 65,
+          Image :"img/x.jpg", 
+          like : "<button style='width: 100px;height: 50px;background-image: linear-gradient(#ff0000,#c75050);border-radius: 20px;align-self: flex-end;margin-bottom: 15px; font-size: 25px;' onclick=''>Like</button><span>1</span><br>"
+         
+        },
+        {
+          Name : " Name : Robert  ",
+          Surname : "Surname : Downey Jr",
+          Gender : " Male",
+          Age : "Age :" + " " + 50,
+          Image :"img/v.jpg", 
+          like : "<button style='width: 100px;height: 50px;background-image: linear-gradient(#ff0000,#c75050);border-radius: 20px;align-self: flex-end;margin-bottom: 15px; font-size: 25px;' onclick=''>Like</button><span>1</span><br>"
+         
+        }, {
+          Name : " Name : Ellen ",
+          Surname : "Surname : Page",
+          Gender : " Female",
+          Age : "Age :" + " " + 27,
+          Image :"img/b.jpg",
+           like : "<button style='width: 100px;height: 50px;background-image: linear-gradient(#ff0000,#c75050);border-radius: 20px;align-self: flex-end;margin-bottom: 15px; font-size: 25px;' onclick=''>Like</button><span>1</span><br>"
+         
+        }, {
+          Name : " Name : Halle ",
+          Surname : "Surname : Berry",
+          Gender : " Female",
+          Age : "Age :" + " " + 47,
+          Image :"img/n.jpg",
+          like : "<button style='width: 100px;height: 50px;background-image: linear-gradient(#ff0000,#c75050);border-radius: 20px;align-self: flex-end;margin-bottom: 15px; font-size: 25px;' onclick=''>Like</button><span>1</span><br>"
+         
+        }, {
+          Name : " Name : Elijah  ",
+          Surname : "Surname : Wood",
+          Gender : " Female",
+          Age : "Age :" + " " + 33 ,
+          Image :"img/m.jpg",
+          like : "<button style='width: 100px;height: 50px;background-image: linear-gradient(#ff0000,#c75050);border-radius: 20px;align-self: flex-end;margin-bottom: 15px; font-size: 25px;' onclick=''>Like</button><span>1</span><br>"
+         
+        }, {
+          Name : " Name : Troian  ",
+          Surname : "Surname : Bellisario",
+          Gender : " Female",
+          Age : "Age :" + " " + 28,
+          Image :"img/1.jpg",
+          like : "<button style='width: 100px;height: 50px;background-image: linear-gradient(#ff0000,#c75050);border-radius: 20px;align-self: flex-end;margin-bottom: 15px; font-size: 25px;' onclick=''>Like</button><span>1</span><br>"
+         
+        }, {
+          Name : " Name : Alyson   ",
+          Surname : "Surname : Hannigan",
+          Gender : " Female",
+          Age : "Age :" + " " + 40,
+          Image :"img/2.jpg",
+          like : "<button style='width: 100px;height: 50px;background-image: linear-gradient(#ff0000,#c75050);border-radius: 20px;align-self: flex-end;margin-bottom: 15px; font-size: 25px;' onclick=''>Like</button><span>1</span><br>",
+          },];
+        document.write("<div class='container-fluid' style='margin-top:50px; margin-left:90px;'>")
+        for (var i = 0 ; i < Media.length ; i++){
+          document.write("<div class='col-lg-4 col-md-6 col-sm-12'><img src='"+Media[i].Image+"' width='200'    class='items' height='200'><p>"+Media[i].Name+"</p><p>"+Media[i].Surname+"</p><p>Gender <a  href='#'>"+Media[i].Gender+"</a></p><p>"+Media[i].Age+"</p><p>" +Media[i].like+"<p><p> </div>")
+        }
+        document.write("</div>");
+
+        document.write("</div><br><br><hr>");
+
+document.write("<footer><div><p>Coders< <img src='img/like.png' width='50' height='50' > >Dating</p></div></footer>");
+
+
+     
+              
+</script>
+
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha256-k2WSCIexGzOj3Euiig+TlR8gA0EmPjuc79OEeY5L45g="
+ crossorigin="anonymous"></script>
+
+
+   
+</body>
+</html>
+</body>
+</html>
